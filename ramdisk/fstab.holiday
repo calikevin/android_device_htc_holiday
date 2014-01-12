@@ -19,7 +19,7 @@
 /dev/block/mmcblk0p24      /misc                       emmc         defaults                                                defaults
 
 # Internal SD Card
-/devices/platform/msm_sdcc.1/mmc_host/mmc0     auto	 auto	 defaults		 voldmanaged=sdcard0:36
+/devices/platform/msm_sdcc.1/mmc_host/mmc0     auto	 auto	 defaults		 voldmanaged=sdcard0:36,nonremovable,noemulatedsd
 
 # SD Card
 /devices/platform/msm_sdcc.3/mmc_host     auto  auto  defaults    voldmanaged=sdcard1:auto
